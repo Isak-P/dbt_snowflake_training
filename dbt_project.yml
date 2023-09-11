@@ -36,5 +36,9 @@ models:
     example:
       +enabled: false
     #  +materialized: view
-    orders_per_country:
+    test_db_models:
+      +enabled: false
+      +materialized: view
+    snowflake_sample_data_models:
+      +enabled: true
       +materialized: view
